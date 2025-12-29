@@ -25,7 +25,7 @@ class CreatePenilaian extends Migration
             $table->double('pemahaman_pekerjaan');
             $table->double('manahemen_waktu');
             $table->double('kerja_sama');
-            $table->string('kriteria');
+            $table->string('kriteria')->nullable();
             $table->timestamps();
         });
     }
